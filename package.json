@@ -1,7 +1,7 @@
 {
-  "name": "react-pagination-status",
+  "name": "filterable-react-pagination-status",
   "version": "2.0.0",
-  "description": "A pagination component for React",
+  "description": "A fork of react-pagination-status",
   "main": "./lib/index.js",
   "scripts": {
     "test:watch": "cross-env NODE_ENV=test ./node_modules/.bin/mocha -w --opts __test__/.mocharc __test__/",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/addhome2001/react-pagination-status.git"
+    "url": "git+https://github.com/RobertBuice/react-pagination-status.git"
   },
   "keywords": [
     "react",
@@ -28,7 +28,7 @@
     "pagination",
     "status"
   ],
-  "author": "addhome2001",
+  "author": "robertbuice",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/addhome2001/react-pagination-status/issues"
@@ -77,5 +77,4 @@
     "mocha": "^3.0.2",
     "react-test-renderer": "^16.2.0"
   },
-  "snyk": true
 }
