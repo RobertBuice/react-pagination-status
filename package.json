@@ -76,5 +76,5 @@
     "jsdom": "^9.4.2",
     "mocha": "^3.0.2",
     "react-test-renderer": "^16.2.0"
-  },
+  }
 }
