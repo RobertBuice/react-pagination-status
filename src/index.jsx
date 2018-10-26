@@ -194,6 +194,10 @@ export default class Pagination extends Component {
       nextPageText: string,
       className: string,
     } = this.props;
+      
+    this.pageCount = Math.ceil(this.props.totalCount / this.props.perPageItemCount);
+    this.lastPage = this.pageCount - 1;
+    this.pageArr = [...new Array(this.pageCount).keys()];
 
     const paginationStatus = this.getPaginationStatus(activePage);
     const partialPages = this.getPartialPages(paginationStatus, partialPageCount, activePage);
